@@ -1,17 +1,12 @@
 class Solution {
     public int[] solution(int[] lottos, int[] win_nums) {
         int[] answer = new int[2];
-		int count = 0; // 일치하는 개수
-		int count_0 = 0; // 0의 개수
-		for(int i = 0; i < 6; i++) {
-			for(int j = 0; j < 6; j++) {
-				if(lottos[i] == win_nums[j]) {
-					count++;
-				}
-			}
-			if(lottos[i] == 0) {
-				count_0++;
-			}
+	int count = 0; // 일치하는 개수
+	int count_0 = 0; // 0의 개수
+	for(int i = 0; i < 6; i++) {
+		for(int j = 0; j < 6; j++) {
+			if(lottos[i] == win_nums[j]) count++;}
+			if(lottos[i] == 0) {count_0++;}
 		}
 		int max_num = count + count_0;
 		answer[0] = rank(max_num);
