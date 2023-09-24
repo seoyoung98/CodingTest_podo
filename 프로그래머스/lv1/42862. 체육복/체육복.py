@@ -1,11 +1,7 @@
 def solution(n, lost, reserve):
-    # 겹치는 숫자 제거 
+    # 겹치는 숫자 제거, set은 정렬이 된다.
     lost_2 = list(set(lost) - set(reserve))
     reserve_2 = list(set(reserve) - set(lost))
-    
-    # lost, reserve 정렬 
-    lost_2.sort()
-    reserve_2.sort()
     
     # lost_2 안에서 돌면서 
     for i in range(len(lost_2)):
