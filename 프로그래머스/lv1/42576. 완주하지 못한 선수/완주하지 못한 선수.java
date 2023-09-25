@@ -5,7 +5,7 @@ class Solution {
 	String answer = "";
 	    
         Arrays.sort(participant);
-	    Arrays.sort(completion);
+	Arrays.sort(completion);
         // 두 리스트를 비교하는데 리스트의 길이가 다르다면 작은 길이를 기준으로 비교한다.
 	    for(int i = 0; i < completion.length; i++){ 
             if(!participant[i].equals(completion[i])) {
