@@ -7,6 +7,7 @@ class Solution {
 		for (char i = 'a'; i <= 'z'; i++) {
 			english.add(String.valueOf(i));
 		}
+	        // A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 		
 		String[] s_list = s.split("");
 		String[] skip_list = skip.split("");
