@@ -54,3 +54,11 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+
+
+#### 원래 내 코드의 효율
+![소수판별 - 효율성똥망](https://github.com/seoyoung98/CodingTest_podo/assets/80522538/40820ddf-bdef-48db-b27e-23738ba216c6)
+
+
+#### 에라토스테네스의 체를 활용한 효율성
+![소수판별-에라토스테네스의체](https://github.com/seoyoung98/CodingTest_podo/assets/80522538/a52a4669-4c44-4555-b995-bb1ffdc87aa5)
