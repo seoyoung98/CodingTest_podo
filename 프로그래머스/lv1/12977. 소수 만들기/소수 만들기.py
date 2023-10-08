@@ -2,7 +2,7 @@ from itertools import combinations
 
 def condition(n):  # 소수 판별
     b = 0
-    for i in range(2, n):
+    for i in range(2, int(n**0.5)+1):
         if n % i == 0:
             b += 1
             break
