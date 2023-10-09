@@ -1,8 +1,6 @@
 import re
 
-
 def solution(new_id):
-    answer = ''
     # 1. 대문자 -> 소문자
     new_id = new_id.lower()
     # 2. 소문자, 숫자, -, _, . 를 제외한 모든 문자 제거
@@ -12,11 +10,10 @@ def solution(new_id):
     while '..' in new_id:
         new_id = new_id.replace('..', '.')
     # 4. .가 처음이나 끝에 위치하면 제거
-    while new_id.startswith('.') or new_id.endswith('.'):
-        if (new_id.startswith('.')):
-            new_id = new_id[1:]
-        if (new_id.endswith('.')):
-            new_id = new_id[:-1]
+    if (new_id[0] =='.'):
+        new_id = new_id[1:] if len(new_id) > 1 else '.'
+    if (new_id[-1] =='.'):
+        new_id = new_id[:-1]
     # 5. 빈 문자열이면 a를 대입
     if (len(new_id) == 0):
         new_id += 'a'
