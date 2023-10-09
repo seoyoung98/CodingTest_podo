@@ -14,6 +14,13 @@ def solution(new_id):
         new_id = new_id[1:] if len(new_id) > 1 else '.'
     if (new_id[-1] =='.'):
         new_id = new_id[:-1]
+
+    # while new_id[0] == '.' or new_id[-1] == '.':
+    #     if (new_id[0] == '.'):
+    #         new_id = new_id[1:]
+    #     if (new_id[-1] == '.'):
+    #         new_id = new_id[:-1]
+    
     # 5. 빈 문자열이면 a를 대입
     if (len(new_id) == 0):
         new_id += 'a'
