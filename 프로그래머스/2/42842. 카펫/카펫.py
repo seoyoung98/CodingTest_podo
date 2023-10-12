@@ -11,7 +11,7 @@ def solution(brown, yellow):
             if(brown == ((i+2)*2+((yellow//i+2)*2) - 4)):
                 list.append(i+2)
                 list.append(yellow//i + 2)
-    print(list)
+                break
     answer.append(max(list))
     answer.append(min(list))
     return answer
