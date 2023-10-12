@@ -21,7 +21,8 @@
 ### 결과
 ![image](https://github.com/seoyoung98/CodingTest_podo/assets/80522538/9a62d48e-e685-4415-8c02-86ddaaefb489) <br>
 일단 테스트 한다고 print해줬던거,, 뺐어야 했고 <br>
-break를 꼭 빼지말고 써주기!!
+break를 꼭 빼지말고 써주기!!<br>
+다 바꿔주니까 바로 0.01초대로 줄었디,,
 
 
 ### 문제 설명
