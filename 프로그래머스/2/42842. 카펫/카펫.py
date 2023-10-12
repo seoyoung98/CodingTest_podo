@@ -1,3 +1,8 @@
+'''
+함수를 쓰면 한 번에 나올 듯
+일단 노란색 (가로 +2) * 2 + (세로 +2) * 2 - 4 = 갈색 개수  
+'''
+
 def solution(brown, yellow):
     answer = []
     list = []
