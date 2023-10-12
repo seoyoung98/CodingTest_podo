@@ -19,7 +19,7 @@
 2023년 10월 5일 1:35:19
 
 ### 결과
-![image](https://github.com/seoyoung98/CodingTest_podo/assets/80522538/9a62d48e-e685-4415-8c02-86ddaaefb489)
+![image](https://github.com/seoyoung98/CodingTest_podo/assets/80522538/9a62d48e-e685-4415-8c02-86ddaaefb489) <br>
 일단 테스트 한다고 print해줬던거,, 뺐어야 했고 <br>
 break를 꼭 빼지말고 써주기!!
 
