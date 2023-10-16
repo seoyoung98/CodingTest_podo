@@ -2,11 +2,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 class Solution {
-    // 자바에서 중복 순열을 구현하는 방법
 	/*
 	 * arr => 돌릴 배열 out => 출력 없어도 됨 depth
 	 */
 	public static ArrayList<String> permutation(String[] arr, String[] out, int depth, int r) {
+        // return이 뭔가 이상해서 chatgpt의 도움을 받았습니다,,
 //		ArrayList<String> word_List = new ArrayList<>();
 //		if (depth == r) {
 //			for (String word : out) {
@@ -21,6 +21,7 @@ class Solution {
 //			
 //		}
 //		}
+        // 자바에서 중복 순열을 구현하는 방법
 		ArrayList<String> word_List = new ArrayList<>();
 
 	    if (depth == r) {
@@ -43,12 +44,6 @@ class Solution {
 	    return word_List;
 	}
 
-//	public static void main(String[] args) {
-//		String[] arr = {"A","E","I","O","U"};
-//		int r = 2;
-//		permutation(arr, new String[r], 0, r);
-//	}
-//	
 	public static int solution(String word) {
 
 		String[] word_list = { "A", "E", "I", "O", "U" };
