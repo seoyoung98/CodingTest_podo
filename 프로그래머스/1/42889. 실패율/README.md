@@ -18,6 +18,10 @@
 
 2023년 10월 3일 23:7:11
 
+### 실패
+![image](https://github.com/seoyoung98/CodingTest_podo/assets/80522538/ed7bc06a-dc9a-481f-8392-2375d21d6f23)
+왐마,, 0인 경우 생각 안해줬더니 이쥐랄
+
 ### 문제 설명
 
 <h2>실패율</h2>
