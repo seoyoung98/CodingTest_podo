@@ -1,5 +1,6 @@
 import java.util.*;
 class Solution {
+    // 리턴 타입 꼭 맞춰주셔요 런타임 에러,,나용,,
     public ArrayList<Integer> solution(int[] answers) {
         // 쉣,, 자바 왜 배열 곱하기 안되녀,,ㅠㅠ
 		ArrayList<Integer> answer = new ArrayList<>();
