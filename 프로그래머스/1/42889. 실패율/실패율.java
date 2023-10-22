@@ -26,7 +26,7 @@ class Solution {
 		// 정렬 -> 람다 사용해서 인덱스 빼내기?
 		List<Integer> keySet = new ArrayList<>(score.keySet());
 		Collections.sort(keySet,(o1,o2) -> Double.compare(score.get(o2),score.get(o1)));
-		System.out.println("정렬 후 : " + keySet);
+		//System.out.println("정렬 후 : " + keySet);
 
 		return keySet;
     }
