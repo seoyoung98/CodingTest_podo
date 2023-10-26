@@ -9,7 +9,7 @@ class Solution {
 			level_people[stages[i] - 1] += 1; // 해당하는 단계의 사람 세어주기
 		}
 		// System.out.println("level_people : "+Arrays.toString(level_people));
-		TreeMap<Integer, Double> score = new TreeMap<>(); // key 기준으로 정렬 
+		HashMap<Integer, Double> score = new HashMap<>(); // key 기준으로 정렬 
 		int people = 0;
 		for (int i = 0; i < N; i++) {
 			Double val = (double)level_people[i] / (stages.length - people);
