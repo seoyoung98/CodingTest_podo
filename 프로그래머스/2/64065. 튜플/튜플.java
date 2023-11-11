@@ -1,6 +1,9 @@
 import java.util.*;
 class Solution {
     public ArrayList<Integer> solution(String s) {
+        // s를 2차원 배열로 만들어서 각 원소들 중 가장 긴 것을 리턴하면 되는거 아니뇨,,
+        // 아니였군,,
+        // 질문하기 도움 많이많이 받아ㅡㅁ,,
        String[] s_list = s.split("\\},\\{");
         s_list[0] = s_list[0].replaceAll("\\{","");
         s_list[s_list.length-1] = s_list[s_list.length-1].replaceAll("\\}","");
