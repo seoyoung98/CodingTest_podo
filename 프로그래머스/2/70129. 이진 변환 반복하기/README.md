@@ -1,10 +1,10 @@
 # [level 2] 이진 변환 반복하기 - 70129 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/70129) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/70129?language=java) 
 
 ### 성능 요약
 
-메모리: 10.3 MB, 시간: 1.42 ms
+메모리: 74.5 MB, 시간: 12.51 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 10월 3일 13:57:28
+2023년 11월 6일 12:48:29
 
 ### 문제 설명
 
