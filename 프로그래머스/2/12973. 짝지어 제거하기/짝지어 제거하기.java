@@ -7,7 +7,8 @@ class Solution
         stack.add(s.charAt(0));
         for(int i = 1; i < s.length(); i++){
             stack.add(s.charAt(i));
-            if(stack.size() >= 2 && (stack.get(stack.size()-1) == stack.get(stack.size()-2))){
+            int len = stack.size();
+            if(stack.size() >= 2 && (stack.get(len-1) == stack.get(len-2))){
                 stack.pop();
                 stack.pop();
             }
