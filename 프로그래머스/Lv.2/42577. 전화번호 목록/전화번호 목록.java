@@ -1,15 +1,19 @@
 import java.util.*;
 class Solution {
     public boolean solution(String[] phone_book) {
-        boolean result = true;
+       Map<String, Integer> result = new TreeMap<>();
 
-        Arrays.sort(phone_book);
-
-        for (int i = 0; i < phone_book.length - 1; i++){
-            if(phone_book[i+1].startsWith(phone_book[i]))
-                result = false;
+        for(int i = 0; i < phone_book.length; i++){
+            result.put(phone_book[i], i);
+        }
+        
+        for(int i = 0; i < phone_book.length; i++){
+            for(int j = 1; j < phone_book[i].length(); j++){
+                if(result.containsKey(phone_book[i].substring(0, j)))
+                    return false;
+            }
         }
 
-        return result;
+        return true;
     }
 }
