@@ -1,7 +1,7 @@
 import java.util.*;
 class Solution {
     public boolean solution(String[] phone_book) {
-       Map<String, Integer> result = new TreeMap<>();
+       Map<String, Integer> result = new HashMap<>();
 
         for(int i = 0; i < phone_book.length; i++){
             result.put(phone_book[i], i);
