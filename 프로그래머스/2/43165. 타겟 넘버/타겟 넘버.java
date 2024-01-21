@@ -9,13 +9,19 @@ class Solution {
 
     public void dfs(int depth, int sum, int[] numbers, int target){
         if(depth == numbers.length){
-            if(sum == target) answer++;
+            System.out.println("으악");
+            System.out.println("sumsum" + sum);
+            if(sum == target) {
+                System.out.println("성공");
+                answer++;
+            }
             return;
         }
-        //System.out.println("depth ===> " + depth);
-        //System.out.println("n last + " + depth);
-        //System.out.println("sum => " + sum);
+        System.out.println("depth ===> " + depth);
+        System.out.println("sum => " + sum);
         dfs(depth+1, sum + numbers[depth], numbers, target);
+        System.out.println("오나");
         dfs(depth+1, sum - numbers[depth], numbers, target);
+        System.out.println("last 팡");
     }
 }
