@@ -1,7 +1,7 @@
 def solution(A,B):
     answer = 0
-    A.sort()
-    B.sort(reverse=True)
+    A.sort() # 오름차순 정렬
+    B.sort(reverse=True) # 내림차순 정렬
     for i in range(0,len(A)):
         answer += A[i]*B[i]
     return answer
