@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 n, m = map(int, input().split())
 
 # 키 => 단어
@@ -5,7 +8,7 @@ n, m = map(int, input().split())
 word_list = {}
 
 for i in range(n):
-    word = input()
+    word = input().strip()
     if len(word) < m:
         continue
 
