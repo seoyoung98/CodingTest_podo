@@ -1,4 +1,7 @@
+import sys
 import math
+
+input = sys.stdin.readline
 n = int(input())
 
 student = list(map(int, input().split()))
